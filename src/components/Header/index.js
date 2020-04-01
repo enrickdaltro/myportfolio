@@ -8,13 +8,13 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a href="">Tecnologias</a>
+            <a href="#tecnologias">Tecnologias</a>
           </li>
           <li>
-            <a href="#about">Trabalhos</a>
+            <a href="#trabalhos">Trabalhos</a>
           </li>
           <li>
-            <a href="">Fale comigo</a>
+            <a href="#falecomigo">Fale comigo</a>
           </li>
         </ul>
       </nav>

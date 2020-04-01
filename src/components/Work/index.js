@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Work() {
   return (
-    <div>
+    <div id="trabalhos">
       <h1>Oi</h1>
     </div>
   );

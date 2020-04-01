@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Typed from 'typed.js';
 
+import Arrow from '../Arrow';
+
 import Enrick from '../../assets/enrick.jpg';
 
 import { Container } from './styles';
@@ -34,34 +36,37 @@ export default class Home extends Component {
 
   render() {
     return (
-      <Container>
-        <div>
-          <span
-            ref={el => {
-              this.el = el;
-            }}
-          />
-          <br />
-          <br />
-          <br />
-          <span
-            ref={ol => {
-              this.ol = ol;
-            }}
-          />
-          <br />
-          <br />
-          <br />
-          <span
-            ref={tl => {
-              this.tl = tl;
-            }}
-          />
-          <br />
-        </div>
+      <>
+        <Arrow />
+        <Container>
+          <div>
+            <span
+              ref={el => {
+                this.el = el;
+              }}
+            />
+            <br />
+            <br />
+            <br />
+            <span
+              ref={ol => {
+                this.ol = ol;
+              }}
+            />
+            <br />
+            <br />
+            <br />
+            <span
+              ref={tl => {
+                this.tl = tl;
+              }}
+            />
+            <br />
+          </div>
 
-        <img src={Enrick} alt="" />
-      </Container>
+          <img src={Enrick} alt="" />
+        </Container>
+      </>
     );
   }
 }
