@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+
 import { Container } from './styles';
 
 export default function Header() {
@@ -24,7 +26,13 @@ export default function Header() {
       </center>
 
       <aside>
-        <a>icon</a>
+        <a href="https://www.linkedin.com/in/enrickdaltro/">
+          <FaLinkedin size={20} />
+        </a>
+
+        <a href="https://github.com/enrickdaltro">
+          <FaGithub size={20} />
+        </a>
       </aside>
     </Container>
   );

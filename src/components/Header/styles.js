@@ -21,6 +21,7 @@ export const Container = styled.div`
         color: #999;
         &:hover {
           color: ${darken(0.2, '#999')};
+          border-bottom: 1px solid #0f4bf1;
         }
       }
     }
@@ -33,5 +34,14 @@ export const Container = styled.div`
 
   aside {
     margin-right: 50px;
+
+    a {
+      color: #999;
+      margin: 0 5px 0;
+
+      &:hover {
+        color: #0f4bf1;
+      }
+    }
   }
 `;

@@ -44,11 +44,11 @@ export default function Contact() {
             </p>
 
             <BoxLinks>
-              <a href="">
+              <a href="https://www.linkedin.com/in/enrickdaltro/">
                 <FaLinkedin size={25} />
               </a>
 
-              <a href="">
+              <a href="https://github.com/enrickdaltro">
                 <FaGithub size={25} />
               </a>
             </BoxLinks>
