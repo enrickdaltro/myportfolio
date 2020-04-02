@@ -37,7 +37,6 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <Arrow />
         <Container>
           <div>
             <span
@@ -65,6 +64,7 @@ export default class Home extends Component {
           </div>
 
           <img src={Enrick} alt="" />
+          {/* <Arrow /> */}
         </Container>
       </>
     );

@@ -13,8 +13,8 @@ function App() {
       <GlobalStyles />
       <Header />
       <Home />
-      <Work />
       <Tecnologias />
+      <Work />
     </>
   );
 }
