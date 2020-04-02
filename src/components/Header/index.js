@@ -11,7 +11,7 @@ export default function Header() {
             <a href="#tecnologias">Tecnologias</a>
           </li>
           <li>
-            <a href="#trabalhos">Trabalhos</a>
+            <a href="#projetos">Projetos</a>
           </li>
           <li>
             <a href="#falecomigo">Fale comigo</a>

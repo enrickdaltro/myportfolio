@@ -4,7 +4,7 @@ import GlobalStyles from './styles/global';
 
 import Header from './components/Header';
 import Home from './components/Home';
-import Work from './components/Work';
+import Projetos from './components/Projetos';
 import Tecnologias from './components/Tecnologias';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Home />
       <Tecnologias />
-      <Work />
+      <Projetos />
     </>
   );
 }
