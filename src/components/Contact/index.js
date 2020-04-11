@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaTelegram } from 'react-icons/fa';
 
-import EnrickPB from '../../assets/enrick_pb.png';
+import EnrickPB from '../../assets/Group 1.svg';
 
 import {
   Container,
@@ -31,8 +31,8 @@ export default function Contact() {
             </p>
             <p>
               Inquieto e autodidata, sempre busco aprender novas habilidades e
-              conhecer novas coisas, afinal, acredito que viver é experenciar e
-              eu me inspiro muito nisso.
+              vivenciar novas experiências. Me inspiro na vida e em seus
+              desafios, buscando aprender o máximo com eles.
             </p>
 
             <br />
@@ -44,19 +44,33 @@ export default function Contact() {
             </p>
 
             <BoxLinks>
-              <a href="https://www.linkedin.com/in/enrickdaltro/">
+              <a
+                href="https://www.linkedin.com/in/enrickdaltro/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLinkedin size={25} />
               </a>
 
-              <a href="https://github.com/enrickdaltro">
+              <a
+                href="https://github.com/enrickdaltro"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaGithub size={25} />
+              </a>
+
+              <a
+                href="https://telegram.me/enrickdaltro"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTelegram size={25} />
               </a>
             </BoxLinks>
           </BoxText>
 
           <BoxImage>
-            <div />
-
             <img src={EnrickPB} alt="" />
           </BoxImage>
         </BoxContent>

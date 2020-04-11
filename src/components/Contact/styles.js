@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 100%;
-  height: 100%;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -63,24 +63,15 @@ export const BoxImage = styled.div`
   height: 100%;
   width: 50%;
   margin-left: 10px;
+  margin-top: 50px;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
 
-  div {
-    position: absolute;
-    height: 50%;
-    width: 20%;
-
-    right: 310px;
-    top: 2230px;
-
-    border: 1px solid #0f4bf1;
-  }
-
   img {
-    width: 80%;
+    width: 100%;
   }
 `;
 

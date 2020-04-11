@@ -26,11 +26,19 @@ export default function Header() {
       </center>
 
       <aside>
-        <a href="https://www.linkedin.com/in/enrickdaltro/">
+        <a
+          href="https://www.linkedin.com/in/enrickdaltro/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedin size={20} />
         </a>
 
-        <a href="https://github.com/enrickdaltro">
+        <a
+          href="https://github.com/enrickdaltro"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub size={20} />
         </a>
       </aside>
