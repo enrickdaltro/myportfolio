@@ -6,6 +6,18 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: slideUp 1s ease;
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
   @media (max-width: 425px) {
     display: flex;

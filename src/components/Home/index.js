@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Typed from 'typed.js';
 
-import Arrow from '../Arrow';
-
 import Enrick from '../../assets/enrick.jpg';
 
 import { Container } from './styles';

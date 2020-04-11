@@ -14,6 +14,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    margin-top: 100px;
   }
 
   @media (max-width: 768px) {

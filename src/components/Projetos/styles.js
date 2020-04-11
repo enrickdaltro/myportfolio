@@ -10,7 +10,27 @@ export const Container = styled.div`
 `;
 
 export const Column = styled.div`
+  > p {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #999;
+
+    text-align: center;
+
+    span {
+      color: #0f4bf1;
+      font-size: 16px;
+      border: none;
+    }
+  }
   @media (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +53,8 @@ export const Title = styled.div`
 
     border-bottom: 2px solid #0f4bf1;
   }
+
+  margin-bottom: 50px;
 `;
 
 export const CardContent = styled.div`
@@ -46,30 +68,60 @@ export const CardContent = styled.div`
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Card = styled.div`
-  margin: 50px 10px 0;
-
+  margin: 0px 10px;
+  border: 1px solid #0f4bf1;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 250px;
   padding: 10px;
+  transition: transform 0.2s;
+  transition: box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  }
 
   @media (max-width: 425px) {
     margin: 10px 10px 0;
   }
 
-  div {
-    border: 1px solid #eee;
-    width: 100%;
-    height: 130px;
-    margin-bottom: 10px;
+  @media (max-width: 768px) {
+    margin: 10px 10px 0;
   }
 
-  span {
+  div {
+    max-width: 230px;
+    height: 190px;
+  }
+
+  img {
+    max-width: 230px;
+  }
+
+  a {
     font-size: 16px;
     color: #000;
 
     border-bottom: 2px solid #0f4bf1;
+
+    transition: color 0.2s;
+
+    cursor: pointer;
+
+    &:hover {
+      color: #0f4bf1;
+    }
   }
 
   p {
