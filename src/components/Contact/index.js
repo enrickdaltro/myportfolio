@@ -26,18 +26,18 @@ export default function Contact() {
           <BoxText>
             <span>Quem Sou eu</span>
             <p>
-              Desenvolvedor Baiano, apaixonado por tecnologia, conhecimento e
+              Desenvolvedor baiano, apaixonado por tecnologia, conhecimento e
               pelo mundo.
             </p>
             <p>
               Inquieto e autodidata, sempre busco aprender novas habilidades e
-              vivenciar novas experiências. Me inspiro na vida e em seus
+              vivenciar novas experiências. Me inspiro na tecnologia e em seus
               desafios, buscando aprender o máximo com eles.
             </p>
 
             <br />
 
-            <span>Onde me achar</span>
+            <span>Onde me encontrar</span>
             <p>
               Você pode me achar pelo meu email{' '}
               <span>enrickdaltro@gmail.com</span> ou pelas minhas redes sociais:

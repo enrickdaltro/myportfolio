@@ -13,8 +13,26 @@ export const Container = styled.div`
     margin-left: 50px;
     align-items: center;
     justify-content: flex-end;
+
+    @media (max-width: 425px) {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+
     ul {
       display: flex;
+
+      @media (max-width: 425px) {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+
       a {
         font-size: 14px;
         margin-right: 10px;
@@ -30,10 +48,26 @@ export const Container = styled.div`
   center {
     margin-left: -190px;
     font-size: 22px;
+
+    @media (max-width: 425px) {
+      margin-left: 10px;
+    }
+
+    @media (max-width: 768px) {
+      margin-left: 10px;
+    }
   }
 
   aside {
     margin-right: 50px;
+
+    @media (max-width: 425px) {
+      margin-right: 10px;
+    }
+
+    @media (max-width: 768px) {
+      margin-right: 10px;
+    }
 
     a {
       color: #999;

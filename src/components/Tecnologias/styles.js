@@ -18,6 +18,10 @@ export const Container = styled.div`
     a {
       color: #0f4bf1;
     }
+
+    @media (max-width: 425px) {
+      text-align: center;
+    }
   }
 `;
 
@@ -53,10 +57,19 @@ export const Card = styled.div`
   padding: 20px;
   margin: 10px;
 
+  @media (max-width: 425px) {
+    padding: 10px;
+    margin: 5px;
+  }
+
   span {
     font-size: 18px;
     margin-top: 10px;
 
     border-bottom: 2px solid #0f4bf1;
+
+    @media (max-width: 425px) {
+      font-size: 12px;
+    }
   }
 `;
