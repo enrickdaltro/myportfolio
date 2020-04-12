@@ -1,5 +1,4 @@
 import React from 'react';
-import Swup from 'swup';
 
 import {
   FaReact,

@@ -9,6 +9,16 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  @media (max-width: 425px) {
+    display: none;
+    max-width: 425px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+    max-width: 425px;
+  }
+
   nav {
     margin-left: 50px;
     align-items: center;

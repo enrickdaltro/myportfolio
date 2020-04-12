@@ -21,6 +21,7 @@ export const Container = styled.div`
 
     @media (max-width: 425px) {
       text-align: center;
+      max-width: 425px;
     }
   }
 `;

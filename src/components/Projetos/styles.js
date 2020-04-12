@@ -7,6 +7,15 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 425px) {
+    max-width: 425px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Column = styled.div`
