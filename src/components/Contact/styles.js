@@ -8,6 +8,14 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+  }
+
   @media (max-width: 425px) {
     display: flex;
     flex-direction: column;
@@ -58,6 +66,17 @@ export const Title = styled.div`
 
   @media (max-width: 425px) {
     margin-bottom: 20px;
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 375px) {
+    margin-bottom: 20px;
+    margin-top: 100px;
 
     display: flex;
     flex-direction: column;

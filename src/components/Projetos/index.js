@@ -63,7 +63,7 @@ export default function Projetos() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              FastFeet
+              Entrega SOS
             </a>
 
             <p>

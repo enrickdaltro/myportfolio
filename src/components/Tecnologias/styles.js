@@ -10,6 +10,22 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
+  @media (max-width: 375px) {
+    text-align: center;
+    max-width: 375px;
+    height: 100vh;
+
+    margin-bottom: 200px;
+  }
+
+  @media (max-width: 425px) {
+    text-align: center;
+    max-width: 4255px;
+    height: 70vh;
+
+    margin-bottom: 200px;
+  }
+
   p {
     font-size: 12px;
     margin-top: 20px;

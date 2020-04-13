@@ -10,11 +10,20 @@ export const Container = styled.div`
 
   @media (max-width: 425px) {
     max-width: 425px;
-    height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media (max-width: 375px) {
+    max-width: 375px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
   }
 `;
 
